@@ -228,7 +228,16 @@ void user::staff()
 {
 	cout<<"\nLogged in as Staff\n";
 	int ch;
-	while(ch!=3)
+	string name;
+	int password;
+	cout<<"Please enter you name: "<< endl;
+	cin>> name;
+	cout<<"Welcome "<< name<< endl;
+	cout<<"Please enter you password: "<< endl;
+	cin>> password;
+	if (password == 123)
+	{
+		while(ch!=3)
 	{
 		
 		cout<<"\n1.Change price"
@@ -342,6 +351,8 @@ void user::staff()
 			
 		}
 	}
+	}
+	
 	
 	cout<<"\nExiting as Staff\n";
 	system("pause");
