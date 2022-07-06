@@ -5,30 +5,6 @@
 #include <windows.h>
 using namespace std;
 
-class staff
-{
-	private:
-		string name;
-		string password;
-	public:
-		void setname(string n)
-		{
-			name = n;			
-		}	
-		string getname()
-		{
-			return name;
-		}
-		void setpassword(string p)
-		{
-			password = p;
-		}
-		string getpassword()
-		{
-			return password;
-		}	
-};
-
 class Bank
 {	
 
