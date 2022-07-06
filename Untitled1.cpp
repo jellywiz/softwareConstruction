@@ -70,10 +70,6 @@ class Bank
 			}
 			
 			
-		virtual	void getadress2()//virtual
-		{
-			
-		}
 	
 			
 };
